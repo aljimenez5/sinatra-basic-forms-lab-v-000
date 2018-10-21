@@ -13,6 +13,9 @@ class App < Sinatra::Base
   post '/' do
     @puppy = params
     
+    erb :display_puppy
+  end
+    
   
   
 end
