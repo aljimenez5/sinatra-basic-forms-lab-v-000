@@ -1,7 +1,7 @@
 class Puppy
   
   attr_accessor :name, :age
-  attr_reader 
+  attr_reader :breed
   attr_writer 
   
 end
